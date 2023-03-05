@@ -1,6 +1,5 @@
-* 
-	font-family: 'Roboto', sans-serif
-@import "variables"
-@import "mixins"
-@import "general"
-@import "media"
+@import "base/variables";
+
+* {
+	font-family: 'Museo Sana Cyrl', sans-serif;
+}
