@@ -1,17 +1,17 @@
-$(document).ready(function(){
-    $('.carousel__inner').slick({
-        speed: 1200,
-        adaptiveHeight: true,
-        prevArrow: '<button type="button" class="slick-prev"><img src="icons/arrow_left.svg"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="icons/arrow_right.svg"></button>',
-        responsive: [
-            {
-                breakpoint: 992,
-                settings: {
-                    // dots: true,
-                    arrows: false
-                }
-            }
-        ]
-      });
-  });
+$('.owl-carousel').owlCarousel({
+    speed:1200,
+    loop:true,
+    margin:30,
+    nav:true,
+    dots:false,
+    autoHeight: true,
+    responsive: {
+        0:{
+            items:1,
+            nav:false
+        },
+        1024:{
+            items:1,
+        }
+    }
+})
