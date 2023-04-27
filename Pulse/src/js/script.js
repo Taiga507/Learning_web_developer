@@ -57,9 +57,9 @@ $(document).ready(function(){
         })
     });
 
-// Validate forms
+    // Validate forms
 
-    function validateForms(form){
+    function validationForms(form){
         $(form).validate({
             rules: {
                 name: {
@@ -86,7 +86,10 @@ $(document).ready(function(){
         });
     };
 
-    validateForms('#consultation-form');
-    validateForms('#consultation form');
-    validateForms('#order form');
+    validationForms('#consultation-form');
+    validationForms('#consultation form');
+    validationForms('#order form');
+
+    $('input[name=phone]').mask("+7 (999) 999-99-99");
+
 });
