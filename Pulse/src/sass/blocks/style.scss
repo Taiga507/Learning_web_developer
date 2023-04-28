@@ -1,4 +1,6 @@
 @import "../base/variables";
+@import '../base/animations';
+
 @import '../blocks/promo';
 @import '../blocks/header';
 @import '../blocks/buttons';
@@ -12,6 +14,9 @@
 @import '../blocks/feedback';
 @import '../blocks/footer';
 @import '../blocks/modal';
+@import '../blocks/pageup';
+
+@import 'animate.css';
 
 * {
 	font-family: 'Museo Sana Cyrl', sans-serif;
