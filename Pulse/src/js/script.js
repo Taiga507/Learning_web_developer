@@ -133,4 +133,7 @@ $(document).ready(function(){
 
     // new WOW().init();
     
+    // WOW js
+
+    new WOW().init();
 });
