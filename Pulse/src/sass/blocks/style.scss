@@ -1,4 +1,9 @@
-@import "../base/variables";
+@import '../libs/bootstrap-reboot.min';
+@import '../libs/font';
+@import '../libs/owl.carousel.min';
+@import '../libs/owl.theme.default.min';
+
+@import '../base/variables';
 @import '../base/animations';
 
 @import '../blocks/promo';
