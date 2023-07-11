@@ -1,0 +1,21 @@
+body {
+    background-color: khaki;
+}
+
+h1  {
+    color: red;
+    text-align: center;
+}
+
+li  {
+    color: red;
+    text-align: center;
+}
+
+.font_style_i {
+    font-style: italic;
+}
+
+.text_transform_uppercase {
+    text-transform: uppercase;
+}

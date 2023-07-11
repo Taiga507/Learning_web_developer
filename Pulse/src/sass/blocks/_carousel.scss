@@ -1,0 +1,36 @@
+.carousel {
+    padding: 81px 0;
+}
+.owl-carousel {
+    position: relative;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.owl-prev {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -66px;
+	border: none;
+	background-color: #fff;
+	span {
+		display: block;
+		background: url(../../icons/arrow_left.svg) center (center/cover) no-repeat;
+		padding: 50px 31px 0 0;
+		font-size: 0;
+	}
+}
+.owl-next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: -66px;
+	border: none;
+	background-color: #fff;
+	span {
+		display: block;
+		background: url(../../icons/arrow_right.svg) center (center/cover) no-repeat;
+		padding: 50px 31px 0 0;
+		font-size: 0;
+	}
+}
